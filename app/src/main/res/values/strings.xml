@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppVideo</string>
+    <string name="Title">Reprodutor de Vídeos</string>
+    <string name="txtVideo1">Vídeo 1</string>
+    <string name="txtVideo2">Vídeo 2</string>
+    <string name="txtRep">Reproduzir</string>
+    <string name="txtFullsc">Tela cheia</string>
+    <string name="txtSpeed">Velocidade: 2x</string>
+</resources>
