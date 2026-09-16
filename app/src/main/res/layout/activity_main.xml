@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
@@ -8,6 +9,7 @@
     android:gravity="center">
     
     <TextView
+        android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Title"
@@ -16,13 +18,16 @@
         android:textColor="@color/black"
         android:layout_marginBottom="20dp"/>
 
+<FrameLayout
+    android:id="@+id/playerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
     <androidx.media3.ui.PlayerView
         android:id="@+id/viewPlayerView"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:backgroundTint="@color/black"
-        android:layout_gravity="center"/>
-
+        android:layout_height="match_parent"
+        android:background="@color/black" />
+</FrameLayout>
     <LinearLayout
         android:id="@+id/ctrlLyt"
         android:layout_width="match_parent"
